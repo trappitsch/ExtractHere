@@ -18,9 +18,8 @@ No error message is displayed.
 
 ## Supported formats
 
---------------------------------------
 | Format          | Terminal command |
---------------------------------------
+| --------------- | ---------------- |
 | tar             | `tar`            |
 | tar.gz          | `tar`            |
 | zip             | `unzip`          |
