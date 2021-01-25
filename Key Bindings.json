@@ -1,0 +1,3 @@
+[
+	{ "keys": ["Ctrl+E"], "command": "extract_here" }
+]
