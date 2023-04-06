@@ -98,10 +98,10 @@ class ExtractHere(DirectoryPaneCommand):
 
             # command from terminal
             if qual == ".zip":
-                cmd = f"unzip {file_hr} -d {parent_folder}"
+                cmd = f"unzip '{file_hr}' -d '{parent_folder}'"
             # all other commands use tar
             else:
                 opts = tar_opts[qual]
-                cmd = f"tar {opts} {file_hr} -C {parent_folder}"
+                cmd = f"tar {opts} '{file_hr}' -C '{parent_folder}'"
             os.system(cmd)
             notify_file_added(ext_name)
